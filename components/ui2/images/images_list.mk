@@ -1,0 +1,1 @@
+GEN_CSRCS += _cat_alpha_240x270.c _SUOLONG2_alpha_240x320.c

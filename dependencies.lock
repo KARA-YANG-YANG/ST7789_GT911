@@ -1,0 +1,24 @@
+dependencies:
+  espressif/esp_lcd_touch:
+    dependencies: []
+    source:
+      path: C:\Users\xsy\Desktop\doatest\ST7789\spi_lcd_touch\components\espressif__esp_lcd_touch
+      type: local
+    version: 1.1.2
+  idf:
+    source:
+      type: idf
+    version: 5.4.1
+  lvgl:
+    dependencies: []
+    source:
+      path: C:\Users\xsy\Desktop\doatest\ST7789\spi_lcd_touch\components\lvgl
+      type: local
+    version: 8.3.10
+direct_dependencies:
+- espressif/esp_lcd_touch
+- idf
+- lvgl/lvgl
+manifest_hash: b7efdfb0f3c6d8a04e49b073d07939792e51aaa91aa26519680d952909a81ab8
+target: esp32s3
+version: 2.0.0

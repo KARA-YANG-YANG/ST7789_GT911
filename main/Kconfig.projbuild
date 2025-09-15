@@ -1,0 +1,17 @@
+menu "Example Configuration"
+
+    choice EXAMPLE_LCD_CONTROLLER
+        prompt "LCD controller model"
+        default EXAMPLE_LCD_CONTROLLER_ST7789
+        help
+            Select LCD controller model
+
+        config EXAMPLE_LCD_CONTROLLER_ST7789
+            bool "ST7789"
+
+        config EXAMPLE_LCD_CONTROLLER_ILI9341
+            bool "ILI9341"
+    
+    endchoice
+
+endmenu
