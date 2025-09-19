@@ -26,7 +26,7 @@
 
 
 
-//#include "esp_lcd_touch_tt21100.h"
+//#include "esp_lcd_touch_gt911.h"
  
  /* LCD size */
  #define EXAMPLE_LCD_H_RES   (240)
